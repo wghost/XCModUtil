@@ -1,0 +1,1012 @@
+# depslib dependency file v1.0
+1428818921 source:d:\codeblocksproj\xcmodutil\logservice.cpp
+	"LogService.h"
+
+1429554209 d:\codeblocksproj\xcmodutil\logservice.h
+	<string>
+	<iostream>
+	<fstream>
+
+1407906776 source:d:\codeblocksproj\xcmodutil\minilzo.c
+	<config.h>
+	<limits.h>
+	<stddef.h>
+	"minilzo.h"
+	"lzo/lzoconf.h"
+	<string.h>
+	<string.h>
+	<assert.h>
+	<unchecked.h>
+	<intrin.h>
+	"lzo/lzo1x.h"
+	<intrin.h>
+
+1407906776 d:\codeblocksproj\xcmodutil\minilzo.h
+	"lzoconf.h"
+
+1407906776 d:\codeblocksproj\xcmodutil\lzoconf.h
+	<config.h>
+	<limits.h>
+	<stddef.h>
+	"lzodefs.h"
+
+1407906776 d:\codeblocksproj\xcmodutil\lzodefs.h
+
+1428586453 source:d:\codeblocksproj\xcmodutil\resource.rc
+
+1429340780 source:d:\codeblocksproj\xcmodutil\textutils.cpp
+	"TextUtils.h"
+	<cstdio>
+	<iostream>
+	<sstream>
+	<cstring>
+	<cctype>
+
+1429206947 d:\codeblocksproj\xcmodutil\textutils.h
+	"UPKDeclarations.h"
+
+1429368690 d:\codeblocksproj\xcmodutil\upkdeclarations.h
+	<vector>
+	<string>
+
+1429508514 source:d:\codeblocksproj\xcmodutil\udefaultproperty.cpp
+	"UDefaultProperty.h"
+	"UObject.h"
+	"UPKReader.h"
+	"TextUtils.h"
+	<cstring>
+
+1429374318 d:\codeblocksproj\xcmodutil\udefaultproperty.h
+	"UPKDeclarations.h"
+
+1429370396 d:\codeblocksproj\xcmodutil\uobject.h
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+	<utility>
+	"UPKDeclarations.h"
+	"UDefaultProperty.h"
+	"TextUtils.h"
+
+1430207601 d:\codeblocksproj\xcmodutil\upkreader.h
+	<iostream>
+	<sstream>
+	<map>
+	"UPKDeclarations.h"
+	"UFlags.h"
+	"LogService.h"
+
+1429341964 d:\codeblocksproj\xcmodutil\uflags.h
+	<cstdint>
+	<string>
+
+1429341979 source:d:\codeblocksproj\xcmodutil\uflags.cpp
+	"UFlags.h"
+	"TextUtils.h"
+	<sstream>
+
+1429553920 source:d:\codeblocksproj\xcmodutil\uobject.cpp
+	"UObject.h"
+	"UPKReader.h"
+	"LogService.h"
+	"UPackageManager.h"
+	<sstream>
+	<vector>
+
+1429552595 d:\codeblocksproj\xcmodutil\upackagemanager.h
+	<string>
+	<map>
+	"UPKDeclarations.h"
+
+1422702115 source:d:\codeblocksproj\xcmodutil\uobjectfactory.cpp
+	"UObjectFactory.h"
+
+1407906776 d:\codeblocksproj\xcmodutil\uobjectfactory.h
+	"UObject.h"
+
+1429552799 source:d:\codeblocksproj\xcmodutil\upackagemanager.cpp
+	"UPackageManager.h"
+
+1430207299 source:d:\codeblocksproj\xcmodutil\upkextractor.cpp
+	"UPKExtractor.h"
+	<wx/string.h>
+	<wx/filefn.h>
+	<wx/filename.h>
+	<wx/regex.h>
+	"UObject.h"
+
+1430205916 d:\codeblocksproj\xcmodutil\upkextractor.h
+	"UPKReader.h"
+
+1429554309 d:\codeblocksproj\xcmodutil\upkutils.h
+	"UPKReader.h"
+	"UObjectFactory.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\string.h
+	"wx/defs.h"
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<limits.h>
+	<string.h>
+	<stdio.h>
+	<stdarg.h>
+	<limits.h>
+	<stdlib.h>
+	"wx/wxcrtbase.h"
+	"wx/strvararg.h"
+	"wx/buffer.h"
+	"wx/strconv.h"
+	"wx/stringimpl.h"
+	"wx/stringops.h"
+	"wx/unichar.h"
+	"wx/tls.h"
+	"wx/iosfwrap.h"
+	"wx/crt.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\defs.h
+	"wx/platform.h"
+	"wx/version.h"
+	"wx/dlimpexp.h"
+	<stddef.h>
+	"wx/debug.h"
+	<sys/types.h>
+	<sys/types.h>
+	"wx/windowid.h"
+	<unistd.h>
+	"wx/msw/winundef.h"
+	"wx/features.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\platform.h
+	<unistd.h>
+	<TargetConditionals.h>
+	<AvailabilityMacros.h>
+	"wx/osx/config_xcode.h"
+	"wx/android/config_android.h"
+	"wx/compiler.h"
+	"wx/setup.h"
+	"wx/msw/wince/libraries.h"
+	"wx/msw/libraries.h"
+	"wx/msw/gccpriv.h"
+	<TargetConditionals.h>
+	<AvailabilityMacros.h>
+	"wx/chkconf.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\android\config_android.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\compiler.h
+
+1384147116 c:\wxwidgets-3.0.0\lib\gcc_lib\mswu\wx\setup.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\wince\libraries.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\libraries.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\gccpriv.h
+	<_mingw.h>
+	<w32api.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\chkconf.h
+	"wx/msw/wince/chkconf.h"
+	"wx/msw/chkconf.h"
+	"wx/gtk/chkconf.h"
+	"wx/gtk/chkconf.h"
+	"wx/cocoa/chkconf.h"
+	"wx/osx/chkconf.h"
+	"wx/os2/chkconf.h"
+	"wx/dfb/chkconf.h"
+	"wx/motif/chkconf.h"
+	"wx/x11/chkconf.h"
+	"wx/android/chkconf.h"
+	"wx/unix/chkconf.h"
+	"wx/univ/chkconf.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\wince\chkconf.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\chkconf.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\android\chkconf.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\unix\chkconf.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\univ\chkconf.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\version.h
+	"wx/cpp.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\cpp.h
+	"wx/compiler.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\dlimpexp.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\debug.h
+	<assert.h>
+	<limits.h>
+	"wx/chartype.h"
+	"wx/cpp.h"
+	"wx/dlimpexp.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\chartype.h
+	"wx/platform.h"
+	<sys/types.h>
+	<wchar.h>
+	<wcstr.h>
+	<stdlib.h>
+	<widec.h>
+	<ctype.h>
+	<stddef.h>
+	<string.h>
+	<ctype.h>
+	<tchar.h>
+	<ctype.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\windowid.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\winundef.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\features.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\wxcrtbase.h
+	"wx/chartype.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<wctype.h>
+	<time.h>
+	<io.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\strvararg.h
+	"wx/platform.h"
+	"wx/cpp.h"
+	"wx/chartype.h"
+	"wx/strconv.h"
+	"wx/buffer.h"
+	"wx/unichar.h"
+	<type_traits>
+	<type_traits>
+	<tr1/type_traits>
+	"wx/stringimpl.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\strconv.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/buffer.h"
+	"typeinfo.h"
+	<stdlib.h>
+	"wx/fontenc.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\buffer.h
+	"wx/chartype.h"
+	"wx/wxcrtbase.h"
+	<stdlib.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\typeinfo.h
+	"wx/defs.h"
+	<typeinfo>
+	<string.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\fontenc.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\unichar.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/stringimpl.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\stringimpl.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/wxcrtbase.h"
+	<stdlib.h>
+	"wx/beforestd.h"
+	<string>
+	"wx/afterstd.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\beforestd.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\afterstd.h
+	"wx/msw/winundef.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\stringops.h
+	"wx/chartype.h"
+	"wx/stringimpl.h"
+	"wx/unichar.h"
+	"wx/buffer.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\tls.h
+	"wx/defs.h"
+	"wx/msw/tls.h"
+	"wx/os2/tls.h"
+	"wx/unix/tls.h"
+	<stdlib.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\tls.h
+	"wx/msw/wrapwin.h"
+	"wx/thread.h"
+	"wx/vector.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\wrapwin.h
+	"wx/platform.h"
+	<winsock2.h>
+	<windows.h>
+	"wx/msw/winundef.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\thread.h
+	"wx/defs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\vector.h
+	"wx/defs.h"
+	<vector>
+	<algorithm>
+	"wx/scopeguard.h"
+	"wx/meta/movable.h"
+	"wx/meta/if.h"
+	"wx/beforestd.h"
+	<new>
+	"wx/afterstd.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\scopeguard.h
+	"wx/defs.h"
+	"wx/except.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\except.h
+	"wx/defs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\meta\movable.h
+	"wx/meta/pod.h"
+	"wx/string.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\meta\pod.h
+	"wx/defs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\meta\if.h
+	"wx/defs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\unix\tls.h
+	<pthread.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\iosfwrap.h
+	<iostream.h>
+	<iosfwd>
+	"wx/msw/winundef.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\crt.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/wxcrt.h"
+	"wx/wxcrtvararg.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\wxcrt.h
+	"wx/wxcrtbase.h"
+	"wx/string.h"
+	<string.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\wxcrtvararg.h
+	"wx/wxcrt.h"
+	"wx/strvararg.h"
+	"wx/string.h"
+	<stdarg.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\filefn.h
+	"wx/list.h"
+	"wx/arrstr.h"
+	"wx/msw/wince/time.h"
+	"wx/msw/private.h"
+	<time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<process.h>
+	"wx/os2/private.h"
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<unistd.h>
+	<dirent.h>
+	<direct.h>
+	<dos.h>
+	<io.h>
+	<direct.h>
+	<dos.h>
+	<io.h>
+	<io.h>
+	<unistd.h>
+	<dir.h>
+	<fcntl.h>
+	<sys/types.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\list.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/vector.h"
+	"wx/beforestd.h"
+	<algorithm>
+	<iterator>
+	<list>
+	"wx/afterstd.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\object.h
+	"wx/memory.h"
+	"wx/xti.h"
+	"wx/rtti.h"
+	"wx/xti2.h"
+	"wx/msw/msvcrt.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\memory.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/msgout.h"
+	<stddef.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msgout.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/strvararg.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\xti.h
+	"wx/defs.h"
+	"wx/xtitypes.h"
+	"wx/xtihandler.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\xtitypes.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/hashmap.h"
+	"wx/arrstr.h"
+	"wx/flags.h"
+	"wx/intl.h"
+	"wx/log.h"
+	<typeinfo>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\hashmap.h
+	"wx/string.h"
+	"wx/wxcrt.h"
+	<unordered_map>
+	<tr1/unordered_map>
+	<ext/hash_map>
+	<hash_map>
+	<stddef.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\arrstr.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/dynarray.h"
+	"wx/beforestd.h"
+	<iterator>
+	"wx/afterstd.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\dynarray.h
+	"wx/defs.h"
+	"wx/beforestd.h"
+	<vector>
+	<algorithm>
+	"wx/afterstd.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\flags.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\intl.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/translation.h"
+	"wx/fontenc.h"
+	"wx/language.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\translation.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/buffer.h"
+	"wx/language.h"
+	"wx/hashmap.h"
+	"wx/strconv.h"
+	"wx/scopedptr.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\language.h
+	"wx/defs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\scopedptr.h
+	"wx/defs.h"
+	"wx/checkeddelete.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\checkeddelete.h
+	"wx/cpp.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\log.h
+	"wx/defs.h"
+	"wx/cpp.h"
+	"wx/string.h"
+	"wx/strvararg.h"
+	"wx/arrstr.h"
+	<time.h>
+	"wx/dynarray.h"
+	"wx/hashmap.h"
+	"wx/thread.h"
+	"wx/iosfwrap.h"
+	"wx/generic/logg.h"
+	"wx/cocoa/log.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\generic\logg.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\xtihandler.h
+	"wx/defs.h"
+	"wx/xti.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\rtti.h
+	"wx/memory.h"
+	"wx/flags.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\xti2.h
+	"wx/xtiprop.h"
+	"wx/xtictor.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\xtiprop.h
+	"wx/defs.h"
+	"wx/xti.h"
+	"wx/any.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\any.h
+	"wx/defs.h"
+	<new>
+	"wx/string.h"
+	"wx/meta/if.h"
+	"wx/typeinfo.h"
+	"wx/list.h"
+	"wx/datetime.h"
+	"wx/variant.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\datetime.h
+	"wx/defs.h"
+	"wx/msw/wince/time.h"
+	<time.h>
+	<limits.h>
+	"wx/longlong.h"
+	"wx/anystr.h"
+	"wx/dynarray.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\wince\time.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\longlong.h
+	"wx/defs.h"
+	"wx/string.h"
+	<limits.h>
+	"wx/iosfwrap.h"
+	<limits>
+	"wx/strvararg.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\anystr.h
+	"wx/string.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\variant.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/arrstr.h"
+	"wx/list.h"
+	"wx/cpp.h"
+	"wx/longlong.h"
+	"wx/datetime.h"
+	"wx/iosfwrap.h"
+	"wx/any.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\xtictor.h
+	"wx/defs.h"
+	"wx/xti.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\msvcrt.h
+	<stdlib.h>
+	<crtdbg.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\private.h
+	"wx/msw/wrapwin.h"
+	"wx/msw/microwin.h"
+	"wx/log.h"
+	"wx/window.h"
+	"wx/gdicmn.h"
+	"wx/colour.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\microwin.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\window.h
+	"wx/event.h"
+	"wx/list.h"
+	"wx/cursor.h"
+	"wx/font.h"
+	"wx/colour.h"
+	"wx/region.h"
+	"wx/utils.h"
+	"wx/intl.h"
+	"wx/validate.h"
+	"wx/palette.h"
+	"wx/accel.h"
+	"wx/access.h"
+	"wx/msw/window.h"
+	"wx/motif/window.h"
+	"wx/gtk/window.h"
+	"wx/gtk1/window.h"
+	"wx/x11/window.h"
+	"wx/dfb/window.h"
+	"wx/osx/window.h"
+	"wx/cocoa/window.h"
+	"wx/os2/window.h"
+	"wx/univ/window.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\event.h
+	"wx/defs.h"
+	"wx/cpp.h"
+	"wx/object.h"
+	"wx/clntdata.h"
+	"wx/gdicmn.h"
+	"wx/cursor.h"
+	"wx/mousestate.h"
+	"wx/dynarray.h"
+	"wx/thread.h"
+	"wx/tracker.h"
+	"wx/typeinfo.h"
+	"wx/any.h"
+	"wx/meta/convertible.h"
+	"wx/meta/removeref.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\clntdata.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/hashmap.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\gdicmn.h
+	"wx/defs.h"
+	"wx/list.h"
+	"wx/string.h"
+	"wx/fontenc.h"
+	"wx/hashmap.h"
+	"wx/math.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\math.h
+	"wx/defs.h"
+	<math.h>
+	<cmath>
+	<float.h>
+	<ieeefp.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\cursor.h
+	"wx/defs.h"
+	"wx/msw/cursor.h"
+	"wx/motif/cursor.h"
+	"wx/gtk/cursor.h"
+	"wx/gtk1/cursor.h"
+	"wx/x11/cursor.h"
+	"wx/dfb/cursor.h"
+	"wx/osx/cursor.h"
+	"wx/cocoa/cursor.h"
+	"wx/os2/cursor.h"
+	"wx/utils.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\cursor.h
+	"wx/msw/gdiimage.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\gdiimage.h
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/list.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\gdiobj.h
+	"wx/object.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\utils.h
+	"wx/object.h"
+	"wx/list.h"
+	"wx/filefn.h"
+	"wx/hashmap.h"
+	"wx/versioninfo.h"
+	"wx/meta/implicitconversion.h"
+	"wx/gdicmn.h"
+	"wx/mousestate.h"
+	"wx/longlong.h"
+	"wx/platinfo.h"
+	<direct.h>
+	<dirent.h>
+	<unistd.h>
+	<stdio.h>
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\versioninfo.h
+	"wx/string.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\meta\implicitconversion.h
+	"wx/defs.h"
+	"wx/meta/if.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\mousestate.h
+	"wx/gdicmn.h"
+	"wx/kbdstate.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\kbdstate.h
+	"wx/defs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\platinfo.h
+	"wx/string.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\tracker.h
+	"wx/defs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\meta\convertible.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\meta\removeref.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\font.h
+	"wx/defs.h"
+	"wx/fontenc.h"
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/msw/font.h"
+	"wx/motif/font.h"
+	"wx/gtk/font.h"
+	"wx/gtk1/font.h"
+	"wx/x11/font.h"
+	"wx/dfb/font.h"
+	"wx/osx/font.h"
+	"wx/cocoa/font.h"
+	"wx/os2/font.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\font.h
+	"wx/gdicmn.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\colour.h
+	"wx/defs.h"
+	"wx/gdiobj.h"
+	"wx/variant.h"
+	"wx/msw/colour.h"
+	"wx/motif/colour.h"
+	"wx/gtk/colour.h"
+	"wx/gtk1/colour.h"
+	"wx/generic/colour.h"
+	"wx/x11/colour.h"
+	"wx/osx/colour.h"
+	"wx/cocoa/colour.h"
+	"wx/os2/colour.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\colour.h
+	"wx/object.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\generic\colour.h
+	"wx/object.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\region.h
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/msw/region.h"
+	"wx/gtk/region.h"
+	"wx/gtk1/region.h"
+	"wx/x11/region.h"
+	"wx/dfb/region.h"
+	"wx/osx/region.h"
+	"wx/cocoa/region.h"
+	"wx/os2/region.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\region.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\validate.h
+	"wx/defs.h"
+	"wx/event.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\palette.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/gdiobj.h"
+	"wx/msw/palette.h"
+	"wx/x11/palette.h"
+	"wx/generic/paletteg.h"
+	"wx/osx/palette.h"
+	"wx/os2/palette.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\palette.h
+	"wx/gdiobj.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\generic\paletteg.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\accel.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/generic/accel.h"
+	"wx/msw/accel.h"
+	"wx/motif/accel.h"
+	"wx/gtk/accel.h"
+	"wx/gtk1/accel.h"
+	"wx/osx/accel.h"
+	"wx/generic/accel.h"
+	"wx/os2/accel.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\generic\accel.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\accel.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\access.h
+	"wx/defs.h"
+	"wx/variant.h"
+	"wx/msw/ole/access.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\ole\access.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\window.h
+	"wx/settings.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\settings.h
+	"wx/colour.h"
+	"wx/font.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\univ\window.h
+	"wx/bitmap.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\bitmap.h
+	"wx/string.h"
+	"wx/gdicmn.h"
+	"wx/colour.h"
+	"wx/image.h"
+	"wx/variant.h"
+	"wx/msw/bitmap.h"
+	"wx/x11/bitmap.h"
+	"wx/gtk/bitmap.h"
+	"wx/gtk1/bitmap.h"
+	"wx/x11/bitmap.h"
+	"wx/dfb/bitmap.h"
+	"wx/osx/bitmap.h"
+	"wx/cocoa/bitmap.h"
+	"wx/os2/bitmap.h"
+	"wx/generic/mask.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\image.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/gdicmn.h"
+	"wx/hashmap.h"
+	"wx/arrstr.h"
+	"wx/stream.h"
+	"wx/variant.h"
+	"wx/imagbmp.h"
+	"wx/imagpng.h"
+	"wx/imaggif.h"
+	"wx/imagpcx.h"
+	"wx/imagjpeg.h"
+	"wx/imagtga.h"
+	"wx/imagtiff.h"
+	"wx/imagpnm.h"
+	"wx/imagxpm.h"
+	"wx/imagiff.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\stream.h
+	"wx/defs.h"
+	<stdio.h>
+	"wx/object.h"
+	"wx/string.h"
+	"wx/filefn.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagbmp.h
+	"wx/image.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagpng.h
+	"wx/defs.h"
+	"wx/image.h"
+	"wx/versioninfo.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imaggif.h
+	"wx/image.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagpcx.h
+	"wx/image.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagjpeg.h
+	"wx/defs.h"
+	"wx/image.h"
+	"wx/versioninfo.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagtga.h
+	"wx/image.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagtiff.h
+	"wx/defs.h"
+	"wx/image.h"
+	"wx/versioninfo.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagpnm.h
+	"wx/image.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagxpm.h
+	"wx/image.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\imagiff.h
+	"wx/image.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\msw\bitmap.h
+	"wx/msw/gdiimage.h"
+	"wx/math.h"
+	"wx/palette.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\generic\mask.h
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\filename.h
+	"wx/arrstr.h"
+	"wx/filefn.h"
+	"wx/datetime.h"
+	"wx/intl.h"
+	"wx/longlong.h"
+	"wx/file.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\file.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/filefn.h"
+	"wx/convauto.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\convauto.h
+	"wx/strconv.h"
+	"wx/fontenc.h"
+
+1428853962 source:d:\codeblocksproj\xcmodutil\upklzoutils.cpp
+	"UPKLZOUtils.h"
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	"minilzo.h"
+
+1428835700 d:\codeblocksproj\xcmodutil\upklzoutils.h
+	"UPKReader.h"
+
+1430207184 source:d:\codeblocksproj\xcmodutil\upkreader.cpp
+	"UPKReader.h"
+	<cstring>
+	<cstdio>
+	<fstream>
+	"UPKLZOUtils.h"
+	"UObjectFactory.h"
+	"TextUtils.h"
+	"UPackageManager.h"
+	"LogService.h"
+
+1429551926 source:d:\codeblocksproj\xcmodutil\upkutils.cpp
+	"UPKUtils.h"
+	<cstring>
+	<sstream>
+
+1429542027 source:d:\codeblocksproj\xcmodutil\utoken.cpp
+	<sstream>
+	<map>
+	"UToken.h"
+	"UTokenFactory.h"
+	"TextUtils.h"
+
+1429541993 d:\codeblocksproj\xcmodutil\utoken.h
+	"UPKReader.h"
+
+1426847793 d:\codeblocksproj\xcmodutil\utokenfactory.h
+	"UToken.h"
+
+1426936569 source:d:\codeblocksproj\xcmodutil\utokenfactory.cpp
+	"UTokenFactory.h"
+
+1430205953 source:d:\codeblocksproj\xcmodutil\xcmodutil.cpp
+	<iostream>
+	<cstdlib>
+	<wx/string.h>
+	<wx/filefn.h>
+	<wx/filename.h>
+	<wx/cmdline.h>
+	<wx/msgout.h>
+	"UPKReader.h"
+	"UPKExtractor.h"
+	"TextUtils.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\cmdline.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/arrstr.h"
+	"wx/cmdargs.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\cmdargs.h
+	"wx/arrstr.h"
+
+1384147116 c:\wxwidgets-3.0.0\include\wx\regex.h
+	"wx/defs.h"
+	"wx/string.h"
+

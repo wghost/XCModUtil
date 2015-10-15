@@ -1,0 +1,6 @@
+#ifndef _resource_rc
+#define _resource_rc
+
+1 24 "UPKUtils.manifest"
+
+#endif

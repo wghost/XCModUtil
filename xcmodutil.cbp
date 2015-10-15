@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="xcmodutil" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="xcmodutil">
+				<Option output="bin/xcmodutil" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="`wx-config --cxxflags`" />
+				</Compiler>
+				<Linker>
+					<Add option="`wx-config --libs base`" />
+				</Linker>
+			</Target>
+			<Target title="UENativeTablesReader">
+				<Option output="bin/UENativeTablesReader" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="PatchUPK">
+				<Option output="bin/PatchUPK" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O2" />
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="$(#wx)/include" />
+		</ResourceCompiler>
+		<Unit filename="LogService.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="LogService.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="ModParser.cpp">
+			<Option target="PatchUPK" />
+		</Unit>
+		<Unit filename="ModParser.h">
+			<Option target="PatchUPK" />
+		</Unit>
+		<Unit filename="ModScript.cpp">
+			<Option target="PatchUPK" />
+		</Unit>
+		<Unit filename="ModScript.h">
+			<Option target="PatchUPK" />
+		</Unit>
+		<Unit filename="PatchUPK.cpp">
+			<Option target="PatchUPK" />
+		</Unit>
+		<Unit filename="TextUtils.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="TextUtils.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UDefaultProperty.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UDefaultProperty.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UENativeTablesReader.cpp">
+			<Option target="UENativeTablesReader" />
+		</Unit>
+		<Unit filename="UFlags.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UFlags.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UObject.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UObject.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UObjectFactory.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UObjectFactory.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKDeclarations.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKExtractor.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKExtractor.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKLZOUtils.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKLZOUtils.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKReader.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKReader.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKUtils.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPKUtils.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPackageManager.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UPackageManager.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UToken.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UToken.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UTokenFactory.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="UTokenFactory.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="lzoconf.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="lzodefs.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="minilzo.c">
+			<Option compilerVar="CC" />
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="minilzo.h">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="xcmodutil.cpp">
+			<Option target="xcmodutil" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
